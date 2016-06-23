@@ -5,15 +5,15 @@ package com.tyrannodrake.app.dota2wallpapers;
  */
 public class Wallpaper {
     private String name;
-    private int numOfSongs;
+   // private int numOfSongs;
     private int thumbnail;
 
     public Wallpaper() {
     }
 
-    public Wallpaper(String name, int numOfSongs, int thumbnail) {
+    public Wallpaper(String name, int thumbnail) {
         this.name = name;
-        this.numOfSongs = numOfSongs;
+       // this.numOfSongs = numOfSongs;
         this.thumbnail = thumbnail;
     }
 
@@ -25,13 +25,13 @@ public class Wallpaper {
         this.name = name;
     }
 
-    public int getNumOfSongs() {
-        return numOfSongs;
-    }
+//    public int getNumOfSongs() {
+//        return numOfSongs;
+//    }
 
-    public void setNumOfSongs(int numOfSongs) {
-        this.numOfSongs = numOfSongs;
-    }
+//    public void setNumOfSongs(int numOfSongs) {
+//        this.numOfSongs = numOfSongs;
+//    }
 
     public int getThumbnail() {
         return thumbnail;

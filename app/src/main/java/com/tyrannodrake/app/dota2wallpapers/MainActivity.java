@@ -105,34 +105,34 @@ public class MainActivity extends AppCompatActivity {
                 R.drawable.wall10,
                 R.drawable.wall11};
 
-        Wallpaper a = new Wallpaper("Dota 2", 13, covers[0]);
+        Wallpaper a = new Wallpaper("Bloodseeker",  covers[0]);
         albumList.add(a);
 
-        a = new Wallpaper("Roshan", 8, covers[1]);
+        a = new Wallpaper("Phantom Assassin", covers[1]);
         albumList.add(a);
 
-        a = new Wallpaper("Bounty Hunter", 11, covers[2]);
+        a = new Wallpaper("Lycan", covers[2]);
         albumList.add(a);
 
-        a = new Wallpaper("Phantom Assassin", 12, covers[3]);
+        a = new Wallpaper("Juggernaut Vs Tidehunter", covers[3]);
         albumList.add(a);
 
-        a = new Wallpaper("Doom", 14, covers[4]);
+        a = new Wallpaper("Leshrac", covers[4]);
         albumList.add(a);
 
-        a = new Wallpaper("Roshan", 1, covers[5]);
+        a = new Wallpaper("Spirit Breaker Vs Sniper", covers[5]);
         albumList.add(a);
 
-        a = new Wallpaper("Roshan Butterfly", 11, covers[6]);
+        a = new Wallpaper("Lich", covers[6]);
         albumList.add(a);
 
-        a = new Wallpaper("Juggernaut", 14, covers[7]);
+        a = new Wallpaper("Spirit Breaker",  covers[7]);
         albumList.add(a);
 
-        a = new Wallpaper("Wraith King", 11, covers[8]);
+        a = new Wallpaper("Anti Mage", covers[8]);
         albumList.add(a);
 
-        a = new Wallpaper("Bane Elemental", 17, covers[9]);
+        a = new Wallpaper("Templar Assassin", covers[9]);
         albumList.add(a);
 
         adapter.notifyDataSetChanged();
